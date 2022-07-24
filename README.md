@@ -1,2 +1,2 @@
-# ossible-web
+# Active Platform
 - Domain: www.ossible.online
