@@ -1,3 +1,3 @@
 # ossible-web
 
-- Domain: www.ossible.online
+- Domain: https://ossible.online
