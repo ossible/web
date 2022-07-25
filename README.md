@@ -1,4 +1,3 @@
-# Ossible
+# ossible-web
 
-- website domain: https://ossible.online
-- email address: reply@ossible.online
+- Domain: www.ossible.online
