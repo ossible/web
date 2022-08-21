@@ -226,8 +226,8 @@ li {
   border: 1px solid var(--grey-border);
   background: transparent;
   height: auto;
-  padding: 23px 27px;
-  width: 60%;
+  padding: 20px 20px;
+  width: 50%;
   font-size: 16px;
   line-height: 10px;
   text-transform: uppercase;
