@@ -273,14 +273,14 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #03cafc;
+     color: #2255FF;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #03cafc;
+     color: #2255FF;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -288,7 +288,7 @@ button {
 }
 
 .login_btn a {
-     background: #03cafc;
+     background: #2255FF;
      padding: 9px 32px !important;
      display: inline;
      border-radius: 20px;
@@ -374,8 +374,8 @@ button {
 #banner1 .carousel-control-prev:focus,
 #banner1 .carousel-control-next:focus {
      background: transparent;
-     border: #03cafc solid 2px;
-     color: #03cafc;
+     border: #2255FF solid 2px;
+     color: #2255FF;
 }
 
 #banner1 a.carousel-control-prev {
@@ -423,7 +423,7 @@ button {
 }
 
 .read_more:hover {
-     background: #03cafc;
+     background: #2255FF;
      color: #fff !important;
      transition: ease-in all 0.5s;
 }
@@ -503,7 +503,7 @@ button {
 }
 
 .blu {
-     color: #03cafc;
+     color: #2255FF;
      text-transform: initial;
 }
 
@@ -744,7 +744,7 @@ button {
 }
 
 .send_btn {
-     background: #03cafc;
+     background: #2255FF;
      font-weight: 600;
      font-size: 18px;
      width: 100%;
@@ -819,7 +819,7 @@ ul.location_icon li a {
 }
 
 .copyright a:hover {
-     color: #03cafc;
+     color: #2255FF;
 }
 
 
@@ -830,7 +830,7 @@ ul.location_icon li a {
 
 .position_head .header {
      position: inherit;
-     background: #03cafc;
+     background: #2255FF;
 }
 
 .position_head .glasses,
