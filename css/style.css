@@ -41,7 +41,7 @@ html {
 body {
      color: #666666;
      font-size: 14px;
-     font-family: 'Poppins', sans-serif;
+     font-family: Open Sans, sans-serif;
      line-height: 1.80857;
      font-weight: normal;
 }
@@ -57,19 +57,28 @@ a {
      transition: all .3s ease-in-out;
 }
 
+
+h2 {
+     font-family: Arbutus Slab, serif;
+     font-weight: bold;
+     color: #000;
+     line-height: 1.25;
+}
+   
+
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
+     
      letter-spacing: 0;
      font-weight: normal;
      position: relative;
      padding: 0 0 10px 0;
      font-weight: normal;
-     line-height: normal;
-     color: #111111;
+     line-height: 1.25;
+     color: #000;
      margin: 0
 }
 
@@ -78,7 +87,7 @@ h1 {
 }
 
 h2 {
-     font-size: 18px;
+     font-size: 24px;
 }
 
 h3 {
@@ -128,10 +137,11 @@ ol {
      list-style: none;
 }
 
-p {
+p {  
+     position: relative;
      margin: 0px;
      font-weight: 500;
-     font-size: 15px;
+     font-size: 14px;
      line-height: 24px;
 }
 
@@ -436,9 +446,6 @@ button {
      padding: 130px 0 90px 0;
 }
 
-.about .about_img {
-     margin-left: -40px;
-}
 
 .about .titlepage::before {
      position: absolute;
@@ -452,9 +459,7 @@ button {
      z-index: -1;
 }
 
-.about .about_img figure {
-     margin: 0;
-}
+
 
 .about .titlepage {
      border: #000 solid 1px;
@@ -481,6 +486,74 @@ button {
 
 
 /** end about section **/
+
+
+/** start why **/
+.container-why {
+     max-width: 900px;
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+     grid-gap: 48px;
+     margin: 0 auto;
+     padding: 5%;
+   }
+   
+   .card {
+     cursor: pointer;
+     position: relative;
+     height: 0;
+     padding-bottom: 100%;
+     --offset-multiplier: 4px;
+     transition: transform 0.6s ease;
+     --translate: 0;
+     transform: translate(var(--translate), var(--translate));
+   }
+   .card:hover {
+     --offset-multiplier: 6px;
+   }
+   .card:hover {
+     --translate: calc(-1px * (var(--cards) - 1));
+     transition: transform 0.3s ease;
+   }
+   
+   .child {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     padding: 0 16px;
+     box-sizing: border-box;
+     background: #fff;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px -4px 8px rgba(255, 255, 255, 0.8);
+     border-radius: 6px;
+     transition: inherit;
+     --translate: calc(var(--offset) * var(--offset-multiplier));
+     transform: translate(var(--translate), var(--translate));
+     z-index: 5;
+   }
+   .child:nth-child(1) {
+     --offset: 0;
+     z-index: 4;
+   }
+   .child:nth-child(2) {
+     --offset: 1;
+     z-index: 3;
+   }
+   .child:nth-child(3) {
+     --offset: 2;
+     z-index: 2;
+   }
+   .child:nth-child(4) {
+     --offset: 3;
+     z-index: 1;
+   }
+   .child:nth-child(5) {
+     --offset: 4;
+     z-index: 0;
+   }
+/** end why **/
+
+
+
 
 
 /** Our  Glasses section **/
