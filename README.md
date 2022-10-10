@@ -1,5 +1,5 @@
 # Active
 
 Domain(s): 
-- www.ossible.online
-- www.ossible.co.za (parked)
+- www.ossible.online (Active)
+- www.ossible.co.za (Active)
