@@ -57,41 +57,11 @@ body {
 .job {
   display: flex;
   flex-direction: column;
-  max-width: 1400px;
-  height: 100vh;
   margin: 0 auto;
   overflow: hidden;
   background-color: var(--theme-bg-color);
 }
 
-
-.header {
-  display: flex;
-  align-items: center;
-  transition: box-shadow 0.3s;
-  flex-shrink: 0;
-  padding: 0 40px;
-  white-space: nowrap;
-  background-color: var(--header-bg-color);
-  height: 60px;
-  width: 100%;
-  font-size: 14px;
-  justify-content: space-between;
-}
-.header-menu a {
-  text-decoration: none;
-  color: var(--body-color);
-  font-weight: 500;
-}
-.header-menu a:hover {
-  color: var(--active-color);
-}
-.header-menu a:not(:first-child) {
-  margin-left: 30px;
-}
-.header-menu a.active {
-  color: var(--active-color);
-}
 
 
 
