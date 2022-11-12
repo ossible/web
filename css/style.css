@@ -269,8 +269,9 @@ button {
      float: right;
      background: #fff;
      clear: both;
-     padding: 23px 25px !important;
+     padding: 50px 50px !important;
      border-radius: 64px;
+     color: #070404;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
