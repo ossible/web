@@ -2,4 +2,5 @@
 
 Domain(s): 
 - www.ossible.online (Active)
-- www.ossible.co.za (Domain Parked)
+- www.ossible.xyz (Parked)
+- www.ossible.co.za (Parked)
