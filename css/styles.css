@@ -566,7 +566,6 @@ progress {
 
 .list-inline {
   padding-left: 0;
-  list-style: none;
 }
 
 .list-inline-item {
@@ -11470,6 +11469,67 @@ section.cta:before {
   max-width: 10rem;
 }
 
+footer p {
+  font-size:12px;
+  color:#fff;
+  text-align:center;
+  padding-top: 20px;
+}
+
+footer ul {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+footer li {
+    display: inline-block;
+    margin: 4px;
+}
+
+footer li a {
+    display: block;
+    text-decoration: none;
+    border-bottom: medium none;
+    padding: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s, all 1s ease 0s;
+    background: #444749;
+}
+
+social .facebook:hover {
+  background-color:#365397;
+}
+social .twitter:hover {
+  background-color:#00a9f1;
+}
+
+social .youtube:hover {
+  background-color:#ff3333;
+}
+
+social .dribbble:hover {
+  background-color:#ed4584;
+}
+social .behance:hover {
+  background-color:#3fbff0;
+}
+social .instagram:hover {
+  background-color:#396d9a;
+}
+social .vimeo:hover {
+  background-color:#48b6ed;
+}
+social .tumblr:hover {
+  background-color:#304c68;
+}
+social .linkedin:hover {
+  background-color:#006db3;
+}
+social .github:hover {
+  background-color:#2f2f2f;
+}
 @media (min-width: 576px) {
   .features-device-mockup .circle {
     width: 70%;
