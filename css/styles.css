@@ -2742,7 +2742,7 @@ textarea.form-control-lg {
 }
 .input-group > .form-control,
 .input-group > .form-select {
- gti position: relative;
+  position: relative;
   flex: 1 1 auto;
   width: 1%;
   min-width: 0;
