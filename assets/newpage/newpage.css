@@ -17,7 +17,7 @@
   --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
-  --bs-yellow: #1d1a10;
+  --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
@@ -433,10 +433,7 @@ legend + * {
   height: auto;
 }
 
-[type=search] {
-  outline-offset: -2px;
-  -webkit-appearance: textfield;
-}
+
 
 /* rtl:raw:
 [type="tel"],
@@ -454,9 +451,7 @@ legend + * {
   padding: 0;
 }
 
-::-webkit-file-upload-button {
-  font: inherit;
-}
+
 
 ::file-selector-button {
   font: inherit;
@@ -526,16 +521,7 @@ progress {
   }
 }
 
-.display-4 {
-  font-size: calc(1.475rem + 2.7vw);
-  font-weight: 300;
-  line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-4 {
-    font-size: 3.5rem;
-  }
-}
+
 
 .display-5 {
   font-size: calc(1.425rem + 2.1vw);
@@ -548,11 +534,7 @@ progress {
   }
 }
 
-.display-6 {
-  font-size: calc(1.375rem + 1.5vw);
-  font-weight: 300;
-  line-height: 1.2;
-}
+
 @media (min-width: 1200px) {
   .display-6 {
     font-size: 2.5rem;
@@ -603,14 +585,7 @@ progress {
   height: auto;
 }
 
-.img-thumbnail {
-  padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
-  max-width: 100%;
-  height: auto;
-}
+
 
 .figure {
   display: inline-block;
@@ -2463,57 +2438,8 @@ textarea.form-control-lg {
   border-radius: 0.3rem;
 }
 
-.form-check {
-  display: block;
-  min-height: 1.5rem;
-  padding-left: 1.5em;
-  margin-bottom: 0.125rem;
-}
-.form-check .form-check-input {
-  float: left;
-  margin-left: -1.5em;
-}
 
-.form-check-input {
-  width: 1em;
-  height: 1em;
-  margin-top: 0.25em;
-  vertical-align: top;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
-}
-.form-check-input[type=checkbox] {
-  border-radius: 0.25em;
-}
-.form-check-input[type=radio] {
-  border-radius: 50%;
-}
-.form-check-input:active {
-  filter: brightness(90%);
-}
-.form-check-input:focus {
-  border-color: #949bf8;
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(41, 55, 240, 0.25);
-}
-.form-check-input:checked {
-  background-color: #2937f0;
-  border-color: #2937f0;
-}
-.form-check-input:checked[type=checkbox] {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
-}
-.form-check-input:checked[type=radio] {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
-}
+
 .form-check-input[type=checkbox]:indeterminate {
   background-color: #2937f0;
   border-color: #2937f0;
@@ -6114,21 +6040,8 @@ textarea.form-control-lg {
   background-size: 100% 100%;
 }
 
-/* rtl:options: {
-  "autoRename": true,
-  "stringMap":[ {
-    "name"    : "prev-next",
-    "search"  : "prev",
-    "replace" : "next"
-  } ]
-} */
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
-}
 
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-}
+
 
 .carousel-indicators {
   position: absolute;
@@ -11345,126 +11258,15 @@ section {
   color: #2937f0;
 }
 
-/*!
- * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
- * Copyright 2013 - 2017 pixelsign
- * Licensed under MIT (https://github.com/pixelsign/html5-device-mockups/blob/master/LICENSE.txt)
- * Last Build: Tue Nov 14 2017 12:40:57
- */
-.device-wrapper {
-  max-width: 300px;
-  width: 100%;
-}
 
-.device {
-  position: relative;
-  background-size: cover;
-}
 
-.device::after {
-  position: absolute;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-
-.device .screen {
-  position: absolute;
-  background-size: cover;
-  pointer-events: auto;
-}
-
-.device .button {
-  position: absolute;
-  cursor: pointer;
-}
-
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] {
-  padding-bottom: 198.898071625%;
-}
-
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .screen {
-  top: 3.1855955679%;
-  left: 6.8870523416%;
-  width: 86.2258953168%;
-  height: 93.6288088643%;
-}
-
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black]::after {
-  content: "";
-  background-image: url("../assets/img/portrait_black.png");
-}
-
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .button {
-  display: none;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-}
-
-section.cta {
-  position: relative;
-  padding: 15rem 0;
-  background-image: url("https://source.unsplash.com/5g41N3uRPf8/1500x800");
-  background-position: center;
-  background-size: cover;
-}
-section.cta .cta-content {
-  position: relative;
-  z-index: 1;
-}
-section.cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-}
 
 .icon-feature {
   font-size: 4rem;
 }
 
-.features-device-mockup {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-.features-device-mockup .circle {
-  position: absolute;
-  left: 0;
-  fill: url(#circleGradient);
-  width: 70%;
-  display: none;
-}
-.features-device-mockup .circle .gradient-start-color {
-  stop-color: #2937f0;
-}
-.features-device-mockup .circle .gradient-end-color {
-  stop-color: #9f1ae2;
-}
-.features-device-mockup .shape-1 {
-  position: absolute;
-  height: 1rem;
-  width: 1rem;
-  transform: rotate(10deg);
-  fill: #2937f0;
-  top: 15%;
-  right: 10%;
-}
-.features-device-mockup .shape-2 {
-  position: absolute;
-  height: 0.75rem;
-  width: 0.75rem;
-  fill: #2937f0;
-  bottom: 15%;
-  left: 10%;
-}
+
+
 .features-device-mockup .device-wrapper {
   max-width: 10rem;
 }
@@ -11509,21 +11311,12 @@ social .youtube:hover {
   background-color:#ff3333;
 }
 
-social .dribbble:hover {
-  background-color:#ed4584;
-}
-social .behance:hover {
-  background-color:#3fbff0;
-}
+
 social .instagram:hover {
   background-color:#396d9a;
 }
-social .vimeo:hover {
-  background-color:#48b6ed;
-}
-social .tumblr:hover {
-  background-color:#304c68;
-}
+
+
 social .linkedin:hover {
   background-color:#006db3;
 }
@@ -11621,23 +11414,8 @@ footer a:hover, footer a:active, footer a:focus {
 .masthead .masthead-device-mockup .circle .gradient-end-color {
   stop-color: #9f1ae2;
 }
-.masthead .masthead-device-mockup .shape-1 {
-  position: absolute;
-  height: 1rem;
-  width: 1rem;
-  transform: rotate(-10deg);
-  fill: #2937f0;
-  bottom: 15%;
-  left: 10%;
-}
-.masthead .masthead-device-mockup .shape-2 {
-  position: absolute;
-  height: 0.75rem;
-  width: 0.75rem;
-  fill: #2937f0;
-  top: 15%;
-  right: 10%;
-}
+
+
 .masthead .masthead-device-mockup .device-wrapper {
   max-width: 10rem;
 }
