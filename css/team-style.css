@@ -273,7 +273,7 @@ pre code {
 
 code {
   font-size: 0.875em;
-  color: #d63384;
+  color: blue;
   word-wrap: break-word;
 }
 a > code {
@@ -310,7 +310,7 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #6c757d;
+  color: white;
   text-align: left;
 }
 
@@ -592,7 +592,7 @@ progress {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: blue;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -623,7 +623,7 @@ progress {
 
 .figure-caption {
   font-size: 0.875em;
-  color: #6c757d;
+  color: blue;
 }
 
 .container,
@@ -11711,7 +11711,7 @@ margin-bottom:65px;
 .sec-title .title{
 position:relative;
 font-size:18px;
-color:#bd0000;
+color:#2937f0;
 font-weight:700;
 margin-bottom:12px;
 text-transform:capitalize;
